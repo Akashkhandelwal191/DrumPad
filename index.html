@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Drum Pad</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="setTimeout(myFunction,5000)">
+    <div id="loader">
+        <h1>Design By Akash Khandelwal</h1>
+    </div>
+    <div class="app">
+        <video autoplay loop class="video-background"  muted plays-inline>
+            <source id="videochange" src="Bubble_Background1.mp4" type="video/mp4">
+        </video>
+        <header>
+            <h1>Tap Music Pad</h1>
+            <p>Make Music By tapping</p>
+            <h3 id="addcontent" class= "animate__animated animate__zoomIn animate__infinite">    </h3>
+        </header>
+        <div class="visual">
+            <!-- <h1>Visuals</h1> -->
+        </div>
+        <div class="pads">
+            <div class="pad1">
+                <audio src="sounds/bubbles.mp3" class="sound"></audio>
+            </div>
+            <div class="pad2">
+                <audio src="sounds/clay.mp3" class="sound"></audio>
+            </div>
+            <div class="pad3">
+                <audio src="sounds/confetti.mp3" class="sound"></audio>
+            </div>
+            <div class="pad4">
+                <audio src="sounds/glimmer.mp3" class="sound"></audio>
+            </div>
+            <div class="pad5">
+                <audio src="sounds/moon.mp3" class="sound"></audio>
+            </div>
+            <div class="pad6">
+                <audio src="sounds/ufo.mp3" class="sound"></audio>
+            </div>
+        </div>
+        
+
+    </div>
+    <script src="app.js">
+
+    </script>
+</body>
+</html>
